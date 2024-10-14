@@ -1,4 +1,4 @@
-# Xynn Almeyda - artificial intelligence
+# Xynn Almeyda - Artificial Intelligence
 
 Welcome to the Xynn Almeyda AI project! This repository is dedicated to providing valuable tools, insights, and resources to enhance education in the digital landscape.
 
