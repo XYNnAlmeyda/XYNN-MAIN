@@ -32,7 +32,7 @@ async function onCall({ message, args, getLang, data, userPermissions, prefix })
 
     try {
         // Use axios to make the API request
-        const { data: responseData } = await axios.post('https://gemini-pro-api.vercel.app', {
+        const { data: responseData } = await axios.post('https://gemini-pro-api.vercel.app/chat', {
             message: input,
             uid: userId
         });
