@@ -1,7 +1,7 @@
 import axios from 'axios'; // Make sure to install axios if not installed
 
 const config = {
-    name: "ai",
+    name: "ai2",
     aliases: ["chat", "gpt"],
     description: "Interact with GPT-4 via API",
     usage: "[query]",
@@ -32,7 +32,7 @@ async function onCall({ message, args, getLang, data, userPermissions, prefix })
 
     try {
         // Use axios to make the API request
-        const { data: responseData } = await axios.post('gemini-pro-api.vercel.app/chat', {
+        const { data: responseData } = await axios.post('https://gemini-pro-api.vercel.app/chat', {
             message: input,
             uid: userId
         });
