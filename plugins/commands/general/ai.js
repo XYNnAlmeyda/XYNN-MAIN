@@ -32,7 +32,7 @@ async function onCall({ message, args, getLang, data, userPermissions, prefix })
 
     try {
         // Use axios to make the API request
-        const { data: responseData } = await axios.post('https://gpt-api-xynn.onrender.com/chat', {
+        const { data: responseData } = await axios.post('gemini-pro-api-m1cc.vercel.app/chat', {
             message: input,
             uid: userId
         });
