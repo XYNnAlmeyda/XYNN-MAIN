@@ -1,7 +1,7 @@
 import axios from 'axios'; // Make sure to install axios if not installed
 
 const config = {
-    name: "ai2",
+    name: "ai",
     aliases: ["chat", "gpt"],
     description: "Interact with GPT-4 via API",
     usage: "[query]",
