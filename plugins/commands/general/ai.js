@@ -32,7 +32,7 @@ async function onCall({ message, args, getLang, data, userPermissions, prefix })
 
     try {
         // Use axios to make the API request
-        const { data: responseData } = await axios.post('https://gpt04-api-xynn.vercel.app/chat', {
+        const { data: responseData } = await axios.post('https://gpt-4-api-a7tt.vercel.app/chat', {
             message: input,
             uid: userId
         });
